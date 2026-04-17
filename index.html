@@ -562,7 +562,7 @@ const CONFIG = {
   model:     "Qwen2-Audio-7B-Instruct",
   backbone:  "Qwen1.5-7B (4096-dim, 32 layers)",
   date:      "March 2026",
-  n_train:   30,
+  n_train:   60,
   n_test:    8,
 
   // ── Key metrics ────────────────────────────────────────────────
@@ -684,7 +684,7 @@ const CONFIG = {
       available: true
     },
     {
-      title: "Audio-Only Activation Space — Layer 14",
+      title: "Audio and Text Activation Space — Layer 14",
       subtitle: "Refusal layer from original paper",
       path: "interactive_pca_L14.html",
       available: true
@@ -704,7 +704,8 @@ const CONFIG = {
   <div class="hero-inner">
     <div class="hero-label fade-up">Mechanistic Interpretability · Multimodal LLMs</div>
     <h1 class="fade-up delay-1">
-      Refusal in Audio MLLMs is Mediated by a <em>Single Direction</em>
+      One Direction to Rule Them All: Audio and Text Share the Same Safety Geometry
+</em>
     </h1>
     <p class="hero-sub fade-up delay-2">
       We show that the 1-dimensional refusal subspace identified in text-input LLMs
